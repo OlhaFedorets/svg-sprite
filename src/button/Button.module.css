@@ -1,0 +1,23 @@
+button {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    color: red;
+}
+
+button svg {
+    stroke: black;
+}
+
+button:hover svg {
+    stroke: currentColor;
+}
